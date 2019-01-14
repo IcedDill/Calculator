@@ -1,0 +1,23 @@
+#global variables
+param1 = 0
+op1 = "+"
+param2 = 2
+#function definitions
+def intro():
+    print("It's ya boi calculator!")
+    return
+def inputboi():
+    #input first parameter
+    param1 = input("What is your first parameter?")
+    #input second parameter
+    param2 = input("What is your second parameter")
+    #input operator
+    op1 = input("What is your operation")
+    return
+def calculate():
+    if(op1 = "+"):
+        
+    
+#executable code
+intro()
+inputboi()
