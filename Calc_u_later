@@ -7,17 +7,30 @@ def intro():
     print("It's ya boi calculator!")
     return
 def inputboi():
+    global param1
+    global param2
+    global op1
     #input first parameter
     param1 = input("What is your first parameter?")
     #input second parameter
     param2 = input("What is your second parameter")
     #input operator
+    print("Operation Choices: 1= Add 2= Subtract 3= Multiply 4= Divide")
     op1 = input("What is your operation")
     return
 def calculate():
-    if(op1 = "+"):
-        
+    if(op1 == "1"):
+        print(int(param1) + int(param2))
+    if(op1 == "2"):
+        print(int(param1) - int(param2))
+    if(op1 == "3"):
+        print(int(param1) * int(param2))
+    if(op1 == "4"):
+        print(int(param1) / int(param2))
+    return        
     
 #executable code
 intro()
-inputboi()
+while(1 == 1):
+    inputboi()
+    calculate()
